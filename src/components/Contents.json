@@ -1,0 +1,277 @@
+{
+	"welcomeItems": {
+		"Title": "Welcome to my website!",
+		"Content": "I am a Computer Engineering student at the University of Waterloo. \nHere are some of my recent projects."
+	},
+
+	"projectItems": {
+		"Title": "Projects",
+		"SectionRef": "Projects",
+		"ImgWidth": 400,
+		"CardsPerRow": 3,
+		"Items": [
+			{
+				"Title": "Particle Collision",
+				"SubTitle": "",
+				"Content": "An event driven particle collision simulation in an enclosed 2-dimensional space enabled by a priority queue using heapsort. This application is written in C#.",
+				"hRef": "https://gitbuh.com/anthony5682/CollisionSimulation.git",
+				"ImageSrc": "particle-collider2.gif",
+				"ImageName": "Particle Collider"
+			},
+			{
+				"Title": "Casinorama",
+				"SubTitle": "",
+				"Content": "A virtual casino containing a host of classic games such as poker, roulette, and blackjack; each with their own AI to play against. This was developed in Java.",
+				"hRef": "https://github.com/anthony5682/Casinorama.git",
+				"ImageSrc": "casino-roulette-480.gif",
+				"ImageName": "Casino Roulette"
+			},
+			{
+				"Title": "Skinny Road",
+				"SubTitle": "",
+				"Content": "A simple game where you are a cube dodging obstacles of varying sizes coming towards you on a skinny road. This personal project was developed using Unity.",
+				"hRef": "",
+				"ImageSrc": "skinny-road2-480.png",
+				"ImageName": "Skinny Road Game"
+			}
+		]
+	},
+
+	"navBarItems": [
+		{
+			"hRef": "Home",
+			"displayName": "Cover"
+		},
+		{
+			"hRef": "Projects",
+			"displayName": "Projects"
+		},
+		{
+			"hRef": "Awards",
+			"displayName": "Awards"
+		},
+		{
+			"hRef": "Experiences",
+			"displayName": "Experience"
+		},
+		{
+			"hRef": "Extracurricular",
+			"displayName": "Extracurricular"
+		},
+		{
+			"hRef": "Volunteer",
+			"displayName": "Volunteer"
+		},
+		{
+			"hRef": "AboutMe",
+			"displayName": "About me"
+		}
+	],
+
+	"socialItems" : [
+	  {
+	    "sID": "LinkedIn",
+	    "hRef": "http://www.linkedin.com/in/anthonylau3",
+	    "displayName": "LinkedIn",
+	    "iconName": "linkedInIcon",
+	    "iconSrc": "ico-LinkedIn.png"
+	  },
+	  {
+	    "sID": "GitHub",
+	    "hRef": "https://www.github.com/anthony5682",
+	    "displayName": "GitHub",
+	    "iconName": "githubIcon",
+	    "iconSrc": "ico-GitHub.png"
+	  }
+	 ],
+
+	"awardItems" : {
+		"Title": "Awards",
+		"SectionRef": "Awards",
+	  "Rows": 2,
+	  "Cols": 2,
+		"IconHeight": 160,
+		"Items": [
+		  {
+		    "Title": "Nortel Networks Undergraduate Entrance Scholarship",
+		    "SubTitle": "",
+		    "Content": "Awarded to students with an outstanding academic performance and extracurricular activities involvement.",
+		    "hRef": "",
+		    "IconName": "Nortel logo",
+		    "IconSrc": "Nortel logo2t.png"
+		  },
+		  {
+		    "Title": "University of Waterloo President’s Scholarship",
+		    "SubTitle": "",
+		    "Content": "Awarded to students with admission average of 90-94.9%",
+		    "hRef": "",
+		    "IconName": "U Wat logo",
+		    "IconSrc": "U Wat logo.png"
+		  },
+		  {
+		    "Title": "Aquatic Leadership",
+		    "SubTitle": "",
+		    "Content": "National Lifeguard, Lifesaving Instructor, Swim Instructor, Emergency First Aid Instructor, Standard First Aid with CPR-C.",
+		    "hRef": "",
+		    "IconName": "Lifesaving logo",
+		    "IconSrc": "Lifesaving logo2t.png"
+		  },
+		  {
+		    "Title": "Duke of Edinburgh Silver Award",
+		    "SubTitle": "",
+		    "Content": "A year-long programme focused on community improvements and personal growth.",
+		    "hRef": "",
+		    "IconName": "Duke logo",
+		    "IconSrc": "Duke logo2t.png"
+		  }
+	  ]
+	},
+
+	"experienceItems": {
+		"Title": "Experience",
+		"SectionRef": "Experiences",
+	  "Rows": 1,
+	  "Cols": 4,
+		"IconHeight": 96,
+		"Items": [
+			{
+				"Title": "Operations Executive",
+				"SubTitle": "",
+				"Content": "Organized and coordinated 80+ members in VEX Robotics competition. Served as the club representative for sponsorships, acquiring over $10K. Competed in VEX Robotics as team leader, coming in 6th place out of 110. \n Organization: STL Robotics Club",
+				"hRef": "",
+				"IconName": "VEX2",
+				"IconSrc": "ico-VEX2t.png"
+			},
+
+			{
+				"Title": "Lifeguard",
+				"SubTitle": "",
+				"Content": "Developed strong leadership and teamwork skills by coordinating lifeguard activities and training. Responded to emergenecy situations and performed first aid to swimmers as required. \nOrganization: Superior Pool Spa and Leisure Ltd",
+				"hRef": "",
+				"IconName": "Lifeguard",
+				"IconSrc": "ico-lifeguard.png"
+			},
+			{
+				"Title": "Swim Instructor",
+				"SubTitle": "",
+				"Content": "Provided swim lessons to children of all ages and skill levels by creating lesson plans. Maintained a clean environment in and around the pool to ensure the safety of swimmers. \nOrganization: Elgin Mills West Pool",
+				"hRef": "",
+				"IconName": "Swim Instructor",
+				"IconSrc": "ico-swim-64t.png"
+			},
+			{
+				"Title": "High School Tutor",
+				"SubTitle": "",
+				"Content": "Tailored lessons and contents, complementing school curriculum with extra practice and unique problems. Guided them towards study practices and habits, allowing students to excel.\nSubjects: Mathematics, Chemistry and Physics",
+				"hRef": "",
+				"IconName": "Books",
+				"IconSrc": "ico-books.png"
+			}
+		]
+	},
+
+	"extracurricularItems": {
+		"Title": "Extracurricular",
+		"SectionRef": "Extracurricular",
+	  "Rows": 1,
+	  "Cols": 3,
+		"IconHeight": 128,
+		"Items": [
+			{
+				"Title": "Canadian Cancer Society's Relay For Life",
+				"SubTitle": "",
+				"Content": "Was part of a national movement dedicated to making a difference and raised over $100K at St Theresa of Lisieux CHS",
+				"hRef": "",
+				"IconName": "Relay for Life logo",
+				"IconSrc": "Relay for Life logo2t.png"
+			},
+
+			{
+				"Title": "DECA",
+				"SubTitle": "",
+				"Content": "Participated in DECA competition for 4 years of high school; competed at the regional and provincial levels",
+				"hRef": "",
+				"IconName": "DECA",
+				"IconSrc": "DECA logo.jpg"
+			},
+			{
+				"Title": "The Royal Conservatory of Music",
+				"SubTitle": "",
+				"Content": "Completed Piano level 8 with First Class Honor",
+				"hRef": "",
+				"IconName": "RCM Logo",
+				"IconSrc": "RCM logo2t.png"
+			}
+		]
+	},
+
+	"volunteerItem": {
+		"Title": "Volunteer",
+		"SectionRef": "Volunteer",
+	  "Rows": 2,
+	  "Cols": 2,
+		"IconHeight": 128,
+		"Items": [
+			{
+				"Title": "Tri-FUN Kids' Triathalons / Pan Am Torch Relay / Trek for Teens",
+				"SubTitle": "",
+				"Content": "Helped ensure a safe, enjoyable experience for the children and everyone attending the event. Tasks include: Race Kit preparation, Race course marshalling & safety, Event set up and take down at the Finish line, FUN Zone and Snack Zone. \nThe Trek for Teens Foundation is a charity that raises funds and awareness for homeless youth in local communities. Volunteer at Trek for Teens has allowed me to explore my potential and the desire to help others. \nLocation: Vaughan, Richmond Hill and Toronto",
+				"hRef": "",
+				"IconName": "Tri-Torch",
+				"IconSrc": "ico-torch.jpg"
+			},
+			{
+				"Title": "Doors Open / SantaFest / Public library / Evergreen",
+				"SubTitle": "",
+				"Content": "Greeted and showed citizens heritage sites and the importance of the site during Doors Open. \nEnsure safety of participants and spectators at all times during SantaFest parade. \nReading buddies for kids by practice reading, play games to increase young readers’ interest in reading. \nVolunteered at Evergreen provided me an opportunity to make a difference and give back to the community, to connect with nature and to learn more about the environment. \nLocation: Richmond Hill, Vaughan",
+				"hRef": "",
+				"IconName": "Evergreen",
+				"IconSrc": "ico-evergreen2t.png"
+			},		
+			{
+				"Title": "Summer Camp / Pool Reception",
+				"SubTitle": "",
+				"Content": "Helped counselors on a daily basis. Designed and implemented weekly schedule, fun activities, and appropriate programs for campers. Organized and participated in daily activities. Ensure children’s safety by keeping areas clean and organized. \nAnswering visitors' enquiries and directing visitors to their destinations. Taking attendance of swimmers of different programs. \nOrganization: Summer Institute, Elgin Mills and Richvale community centre",
+				"hRef": "",
+				"IconName": "Summer Camp",
+				"IconSrc": "ico-summer-camp2.png"
+			}
+		]
+	},
+
+	"aboutMeItems": {
+		"Title": "About me",
+		"SectionRef": "AboutMe",
+	  "Rows": 1,
+	  "Cols": 3,
+		"IconHeight": 64,
+		"Items": [
+			{
+				"Title": "Outdoors",
+				"SubTitle": "",
+				"Content": "I enjoy the outdoors, such as biking & hiking in the summer and especially skiing in the winter. It’s exhilarating yet relaxing at the same time and is a great way to spend winter break.",
+				"hRef": "",
+				"IconName": "Ski icon",
+				"IconSrc": "ico-ski-64.png"
+			},
+			{
+				"Title": "Travelling",
+				"SubTitle": "",
+				"Content": "I love travelling because it opens my eyes to experience new perspectives. Travelling is a good way to meet new people, see new places and try new food.",
+				"hRef": "",
+				"IconName": "Flat Airplane",
+				"IconSrc": "ico-airplane.png"
+			},
+			{
+				"Title": "Music",
+				"SubTitle": "",
+				"Content": "Music brings us all so much happiness – it's central to our lives. Playing piano gives me the chance to make music, allowing me to be creative and express myself.",
+				"hRef": "",
+				"IconName": "Music Note",
+				"IconSrc": "ico-music.png"
+			}
+		]
+	},
+
+	"footerText": "Get connected with me on social networks!"
+}

@@ -1,0 +1,10 @@
+.Volunteers {
+    height: 100%;
+    background: url("/assets/bk-img-globe5.png") no-repeat center center ; 
+    /*background-color: blue; */
+    /*background-image:  radial-gradient( #008080, #001a4d); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
