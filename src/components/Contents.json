@@ -39,8 +39,9 @@
 
 	"navBarItems": [
 		{
-			"hRef": "Home",
-			"displayName": "Cover"
+			"Comment": "The hRef below MUST match each section's SectionRef and is case-sensitive.",
+			"hRef": "Cover",
+			"displayName": "Home"
 		},
 		{
 			"hRef": "Projects",
