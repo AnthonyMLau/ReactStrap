@@ -16,21 +16,18 @@ class Footer extends Component {
 		const imgHeight = 22;
 
 		return (
-			<a href={hRef} key={key}
-					target='_blank' rel="noopener noreferrer">
-				<Badge pill  color="primary" className='mx-1'>
-					<img src={imgSrc} height={imgHeight} className="mr-2" alt={sID}/>
-					{displayName}
-				</Badge>
-			</a>
+			<Badge pill color="primary" className='mx-1' href={hRef} key={key} >
+				<img src={imgSrc} height={imgHeight} className="mr-2" alt={sID}/ >
+				{displayName}
+			</Badge>
 		);
 	}
 
 
 	render () {
 		return (
-			<footer className=' Footer py-3'>
-				<div className='container  text-white'>
+			<footer className='Footer py-3'>
+				<div className='container text-white'>
 					<Row>
 						<Col md={6} className='text-center text-md-left'>
 							<p className="FooterMsg">

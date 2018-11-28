@@ -1,5 +1,5 @@
 .Footer {
-    /*height: 100%;*/
+    height: 100%;
     background-color: #5566c3 !important; 
     /*background-image:  radial-gradient( #008080, #001a4d); */
     -webkit-background-size: cover;
@@ -10,7 +10,6 @@
     /*font-weight: 300;*/
     /*font-size: 1.2rem;*/
     /*line-height: 1.5;*/
-
 }
 
 .FooterMsg {
@@ -18,3 +17,4 @@
 	/*font-size: 0.8em;*/
 	color: yellow;
 }
+
