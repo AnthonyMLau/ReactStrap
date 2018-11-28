@@ -48,7 +48,7 @@ export default class CustomNavBar extends Component {
 		return (
 			<NavItem key={key} className="">
 				<Badge className="text-white mr-2" 
-							 color="secondary" 
+							 color="dark" 
 							 pill
 							 href={hRef} >
 					<img src={imgSrc} height={imgHeight} className='mr-2' alt={sID} />

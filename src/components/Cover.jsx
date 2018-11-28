@@ -42,10 +42,13 @@ class Cover extends Component {
 					  	</Button>
 				  	</a>
 
-				  	<Button color='primary' className='mx-1'>
-				  		Resume
-				  		<img src={btnImgResume} height={btnImgHeight} className='ml-2' alt=''/>
-				  	</Button>
+				  	{/***<a href='/assets/Resume - Anthony Lau.pdf' target="_blank" rel="noopener noreferrer" > ***/}
+				  	<a href='/assets/Resume - Anthony Lau.pdf' target="_blank"  >
+					  	<Button color='primary' className='mx-1'>
+					  		Resume
+					  		<img src={btnImgResume} height={btnImgHeight} className='ml-2' alt=''/>
+					  	</Button>
+				  	</a>
 			  	</div>
 			  </header>
 			 </div>
