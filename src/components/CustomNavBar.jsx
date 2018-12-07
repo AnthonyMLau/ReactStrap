@@ -30,10 +30,16 @@ export default class CustomNavBar extends Component {
 	  });
 	}
 
+	closeCollapse = () => {
+		if (this.state.isOpen) {
+			this.toggle();
+		}
+	}
+
 	renderNavItem (item, key) {
 		return (
 			<NavItem key={key} >
-				<NavLink href={'#'+item.hRef} > 
+				<NavLink href={'#'+item.hRef} onClick={this.closeCollapse} > 
 					{item.displayName}
 				</NavLink>
 			</NavItem>
@@ -50,7 +56,8 @@ export default class CustomNavBar extends Component {
 				<Badge className="text-white mr-2" 
 							 color="dark" 
 							 pill
-							 href={hRef} >
+							 href={hRef} 
+							 target="_blank" >
 					<img src={imgSrc} height={imgHeight} className='mr-2' alt={sID} />
 					{ displayName }
 				</Badge>

@@ -16,7 +16,7 @@ class Footer extends Component {
 		const imgHeight = 22;
 
 		return (
-			<Badge pill color="primary" className='mx-1' href={hRef} key={key} >
+			<Badge pill color="primary" className='mx-1' href={hRef} key={key} target="_blank" >
 				<img src={imgSrc} height={imgHeight} className="mr-2" alt={sID}/ >
 				{displayName}
 			</Badge>
